@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,12 +17,12 @@
 
 <body>
     <div class="pagina-inicial">
-        {% include 'galeria/partials/_header.html' %}
+        {% include 'partials/_header.html' %}
         <main class="principal">
-            {% include 'galeria/partials/_lateral.html' %}
+            {% include 'partials/_lateral.html' %}
             {% block content %}{% endblock %}
         </main>
-        {% include 'galeria/partials/_footer.html' %}
+        {% include 'partials/_footer.html' %}
     </div>
 
 </body>
